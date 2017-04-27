@@ -11,9 +11,9 @@ public class SearchByOtherPanel extends JPanel implements ActionListener
 	private Car[] carList;
 	private CarSalesSystem carSystem;
 	private int currentIndex = 0;
-	private JLabel headingLabel = new JLabel("Search on Price and Distance Traveled");
+	private JLabel headingLabel = new JLabel("Search on Price and Distance Travelled");
 	private JLabel priceLabel = new JLabel("Price");
-	private JLabel distanceLabel = new JLabel("Distance traveled");
+	private JLabel distanceLabel = new JLabel("Distance travelled");
 	private JButton searchButton = new JButton("Search");
 	private JButton resetButton = new JButton("Reset");
 	private JButton previousButton = new JButton("Previous");
