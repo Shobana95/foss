@@ -28,8 +28,6 @@ import javax.swing.*;
  *
  * COLLABORATORS:
  *
- * @version 1.0, 16 Oct 2004
- * @author Adam Black
  */
 public class CarDetailsComponents extends JPanel implements ComponentListener
 {
@@ -37,7 +35,7 @@ public class CarDetailsComponents extends JPanel implements ComponentListener
 	private JLabel yearLabel = new JLabel("Year");
 	private JLabel modelLabel = new JLabel("Model");
 	private JLabel priceLabel = new JLabel("Price");
-	private JLabel kmLabel = new JLabel("Km Traveled");
+	private JLabel kmLabel = new JLabel("Kms Travelled");
 	private JLabel infoLabel = new JLabel("Extra Information");
 	private JTextField manufacturerTextField = new JTextField();
 	private JTextField yearTextField = new JTextField();
